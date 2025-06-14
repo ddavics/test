@@ -1,0 +1,24 @@
+git --version
+
+git config --global user.name "your-name"
+git config --global user.email "your-email"
+git config --list
+
+git init
+git status
+
+git add .
+git reset
+git commit -m "first commit"
+git remote add origin https://github.com/username/repository_name.git
+git push -u origin main
+
+git branch [branch-name]
+git switch [branch-name]
+git switch main
+git pull
+git switch [branch_name]
+git merge main
+git push -u origin [branch-name]
+git branch -d [branch-name]
+git pull
